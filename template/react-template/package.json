@@ -1,0 +1,27 @@
+{
+  "name": "{{{ projectName }}}",
+  "version": "0.0.0",
+  "description": "{{{ projectName }}} 项目仓库",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.17.1"
+  },
+  "scripts": {
+
+  },
+  "repository": {
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": "eslint --cache --fix",
+    "*.css": "stylelint",
+    "*.scss": "stylelint --syntax=scss"
+  }
+}

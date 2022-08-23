@@ -1,0 +1,16 @@
+# Don't check auto-generated stuff into git
+node_modules
+coverage
+build
+dist
+logs
+redis
+npm-debug.log
+
+# Cruft
+.cache-loader
+.ecf-cache
+.DS_Store
+.idea
+.era-cloud
+.eslintcache
