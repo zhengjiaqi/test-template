@@ -1,0 +1,31 @@
+{
+  "options": {
+    "useConfigFiles": true,
+    "cssPreprocessor": "sass"
+  },
+  "prompts": [
+    {
+      "name": "vuex",
+      "type": "confirm",
+      "message": "`是否需要使用 vuex`",
+      "default": false
+    },
+    {
+      "name": "elementUI",
+      "type": "confirm",
+      "message": "`是否需要使用 element-ui`",
+      "default": false
+    }
+  ],
+  "plugins": {
+    "@mtfe/nami-cli-plugin-webstatic": {
+      "version": "^0.0.8",
+      "usePrompts": true,
+      "isDependencies": true,
+      "options": {
+        "config": "airbnb",
+        "lintOn": ["save", "commit"]
+      }
+    }
+  }
+}
